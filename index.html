@@ -24,18 +24,21 @@
     </audio>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
-        var calm = $("#calm")[0];
-        var scream = $("#scream")[0];
-        calm.autoplay = true;
-        $(".shake").mouseenter(function() {
-            calm.pause();
-            scream.play();
-            console.log("play")
-        });
-        $(".shake").mouseleave(function() {
-            scream.pause();
-            calm.play();
-            console.log("stop")
+        $( document ).ready(function() {
+            alert("იმისთვის რომ საიტმა სრულყოფილად იმუშაოს გთხოვთ ერთხელ დააკლიკოთ ფეიჯზე")
+            var calm = $("#calm")[0];
+            var scream = $("#scream")[0];
+            calm.autoplay = true;
+            $(".shake").mouseenter(function() {
+                calm.pause();
+                scream.play();
+                console.log("play")
+            });
+            $(".shake").mouseleave(function() {
+                scream.pause();
+                calm.play();
+                console.log("stop")
+            });
         });
     </script>
 </body>
