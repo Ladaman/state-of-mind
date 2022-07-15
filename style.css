@@ -5,7 +5,8 @@ html,body{
     justify-content: center;
     align-items: center;
     background-color: rgb(87, 87, 87);
-    height: 50vw;
+    width: 100vw;
+    height: 100vh;
 }
 .shake{
     display: flex;
@@ -48,6 +49,7 @@ html,body{
     background-image: url('assets/img/angery.jpg');
     animation: angery 0.5s;
     animation-iteration-count: infinite;
+    cursor: not-allowed;
 }
 .shake:hover .text-calm{
     display: none;
