@@ -16,8 +16,8 @@ html,body{
 }
 
 .img{
-    height: 35vw;
-    width: 35vw;
+    height: 50vw;
+    width: 50vw;
     background-image: url('assets/img/calm.jpg');
     background-size: cover;
     background-position: center;
