@@ -22,6 +22,12 @@ html,body{
     background-position: center;
     background-repeat: no-repeat;
 }
+@media only screen and (max-width: 900px) {
+    .img{
+        height: 80vw;
+        width: 80vw;
+    }
+}
 .cover{
     width: 100%;
     height: 100%;
